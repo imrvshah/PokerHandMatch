@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		501019AE1C9C7C640078F4E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 501019AD1C9C7C640078F4E3 /* main.m */; };
+		501019B11C9C7C640078F4E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 501019B01C9C7C640078F4E3 /* AppDelegate.m */; };
+		501019B41C9C7C640078F4E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501019B31C9C7C640078F4E3 /* ViewController.m */; };
+		501019B71C9C7C640078F4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501019B51C9C7C640078F4E3 /* Main.storyboard */; };
+		501019B91C9C7C640078F4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501019B81C9C7C640078F4E3 /* Assets.xcassets */; };
+		501019BC1C9C7C640078F4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501019BA1C9C7C640078F4E3 /* LaunchScreen.storyboard */; };
+		501019C71C9C7C640078F4E3 /* pokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501019C61C9C7C640078F4E3 /* pokerTests.m */; };
+		501019D21C9C7C640078F4E3 /* pokerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501019D11C9C7C640078F4E3 /* pokerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		501019C31C9C7C640078F4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501019A11C9C7C640078F4E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501019A81C9C7C640078F4E3;
+			remoteInfo = poker;
+		};
+		501019CE1C9C7C640078F4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501019A11C9C7C640078F4E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501019A81C9C7C640078F4E3;
+			remoteInfo = poker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		501019A91C9C7C640078F4E3 /* poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		501019AD1C9C7C640078F4E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		501019AF1C9C7C640078F4E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		501019B01C9C7C640078F4E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		501019B21C9C7C640078F4E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		501019B31C9C7C640078F4E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		501019B61C9C7C640078F4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		501019B81C9C7C640078F4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		501019BB1C9C7C640078F4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		501019BD1C9C7C640078F4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501019C21C9C7C640078F4E3 /* pokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501019C61C9C7C640078F4E3 /* pokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pokerTests.m; sourceTree = "<group>"; };
+		501019C81C9C7C640078F4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501019CD1C9C7C640078F4E3 /* pokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501019D11C9C7C640078F4E3 /* pokerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pokerUITests.m; sourceTree = "<group>"; };
+		501019D31C9C7C640078F4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501019A61C9C7C640078F4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501019BF1C9C7C640078F4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501019CA1C9C7C640078F4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501019A01C9C7C640078F4E3 = {
+			isa = PBXGroup;
+			children = (
+				501019AB1C9C7C640078F4E3 /* poker */,
+				501019C51C9C7C640078F4E3 /* pokerTests */,
+				501019D01C9C7C640078F4E3 /* pokerUITests */,
+				501019AA1C9C7C640078F4E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		501019AA1C9C7C640078F4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501019A91C9C7C640078F4E3 /* poker.app */,
+				501019C21C9C7C640078F4E3 /* pokerTests.xctest */,
+				501019CD1C9C7C640078F4E3 /* pokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		501019AB1C9C7C640078F4E3 /* poker */ = {
+			isa = PBXGroup;
+			children = (
+				501019AF1C9C7C640078F4E3 /* AppDelegate.h */,
+				501019B01C9C7C640078F4E3 /* AppDelegate.m */,
+				501019B21C9C7C640078F4E3 /* ViewController.h */,
+				501019B31C9C7C640078F4E3 /* ViewController.m */,
+				501019B51C9C7C640078F4E3 /* Main.storyboard */,
+				501019B81C9C7C640078F4E3 /* Assets.xcassets */,
+				501019BA1C9C7C640078F4E3 /* LaunchScreen.storyboard */,
+				501019BD1C9C7C640078F4E3 /* Info.plist */,
+				501019AC1C9C7C640078F4E3 /* Supporting Files */,
+			);
+			path = poker;
+			sourceTree = "<group>";
+		};
+		501019AC1C9C7C640078F4E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				501019AD1C9C7C640078F4E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		501019C51C9C7C640078F4E3 /* pokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				501019C61C9C7C640078F4E3 /* pokerTests.m */,
+				501019C81C9C7C640078F4E3 /* Info.plist */,
+			);
+			path = pokerTests;
+			sourceTree = "<group>";
+		};
+		501019D01C9C7C640078F4E3 /* pokerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				501019D11C9C7C640078F4E3 /* pokerUITests.m */,
+				501019D31C9C7C640078F4E3 /* Info.plist */,
+			);
+			path = pokerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501019A81C9C7C640078F4E3 /* poker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501019D61C9C7C640078F4E3 /* Build configuration list for PBXNativeTarget "poker" */;
+			buildPhases = (
+				501019A51C9C7C640078F4E3 /* Sources */,
+				501019A61C9C7C640078F4E3 /* Frameworks */,
+				501019A71C9C7C640078F4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = poker;
+			productName = poker;
+			productReference = 501019A91C9C7C640078F4E3 /* poker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		501019C11C9C7C640078F4E3 /* pokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501019D91C9C7C640078F4E3 /* Build configuration list for PBXNativeTarget "pokerTests" */;
+			buildPhases = (
+				501019BE1C9C7C640078F4E3 /* Sources */,
+				501019BF1C9C7C640078F4E3 /* Frameworks */,
+				501019C01C9C7C640078F4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501019C41C9C7C640078F4E3 /* PBXTargetDependency */,
+			);
+			name = pokerTests;
+			productName = pokerTests;
+			productReference = 501019C21C9C7C640078F4E3 /* pokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		501019CC1C9C7C640078F4E3 /* pokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501019DC1C9C7C640078F4E3 /* Build configuration list for PBXNativeTarget "pokerUITests" */;
+			buildPhases = (
+				501019C91C9C7C640078F4E3 /* Sources */,
+				501019CA1C9C7C640078F4E3 /* Frameworks */,
+				501019CB1C9C7C640078F4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501019CF1C9C7C640078F4E3 /* PBXTargetDependency */,
+			);
+			name = pokerUITests;
+			productName = pokerUITests;
+			productReference = 501019CD1C9C7C640078F4E3 /* pokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501019A11C9C7C640078F4E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ravi Shah";
+				TargetAttributes = {
+					501019A81C9C7C640078F4E3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					501019C11C9C7C640078F4E3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 501019A81C9C7C640078F4E3;
+					};
+					501019CC1C9C7C640078F4E3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 501019A81C9C7C640078F4E3;
+					};
+				};
+			};
+			buildConfigurationList = 501019A41C9C7C640078F4E3 /* Build configuration list for PBXProject "poker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501019A01C9C7C640078F4E3;
+			productRefGroup = 501019AA1C9C7C640078F4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501019A81C9C7C640078F4E3 /* poker */,
+				501019C11C9C7C640078F4E3 /* pokerTests */,
+				501019CC1C9C7C640078F4E3 /* pokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501019A71C9C7C640078F4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501019BC1C9C7C640078F4E3 /* LaunchScreen.storyboard in Resources */,
+				501019B91C9C7C640078F4E3 /* Assets.xcassets in Resources */,
+				501019B71C9C7C640078F4E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501019C01C9C7C640078F4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501019CB1C9C7C640078F4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501019A51C9C7C640078F4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501019B41C9C7C640078F4E3 /* ViewController.m in Sources */,
+				501019B11C9C7C640078F4E3 /* AppDelegate.m in Sources */,
+				501019AE1C9C7C640078F4E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501019BE1C9C7C640078F4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501019C71C9C7C640078F4E3 /* pokerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501019C91C9C7C640078F4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501019D21C9C7C640078F4E3 /* pokerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		501019C41C9C7C640078F4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501019A81C9C7C640078F4E3 /* poker */;
+			targetProxy = 501019C31C9C7C640078F4E3 /* PBXContainerItemProxy */;
+		};
+		501019CF1C9C7C640078F4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501019A81C9C7C640078F4E3 /* poker */;
+			targetProxy = 501019CE1C9C7C640078F4E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		501019B51C9C7C640078F4E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501019B61C9C7C640078F4E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		501019BA1C9C7C640078F4E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501019BB1C9C7C640078F4E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		501019D41C9C7C640078F4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		501019D51C9C7C640078F4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		501019D71C9C7C640078F4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = poker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.poker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		501019D81C9C7C640078F4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = poker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.poker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		501019DA1C9C7C640078F4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.pokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poker.app/poker";
+			};
+			name = Debug;
+		};
+		501019DB1C9C7C640078F4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.pokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poker.app/poker";
+			};
+			name = Release;
+		};
+		501019DD1C9C7C640078F4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.pokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = poker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		501019DE1C9C7C640078F4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.pokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = poker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501019A41C9C7C640078F4E3 /* Build configuration list for PBXProject "poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501019D41C9C7C640078F4E3 /* Debug */,
+				501019D51C9C7C640078F4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501019D61C9C7C640078F4E3 /* Build configuration list for PBXNativeTarget "poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501019D71C9C7C640078F4E3 /* Debug */,
+				501019D81C9C7C640078F4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		501019D91C9C7C640078F4E3 /* Build configuration list for PBXNativeTarget "pokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501019DA1C9C7C640078F4E3 /* Debug */,
+				501019DB1C9C7C640078F4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		501019DC1C9C7C640078F4E3 /* Build configuration list for PBXNativeTarget "pokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501019DD1C9C7C640078F4E3 /* Debug */,
+				501019DE1C9C7C640078F4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501019A11C9C7C640078F4E3 /* Project object */;
+}
