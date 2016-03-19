@@ -15,6 +15,8 @@
 		501019BC1C9C7C640078F4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501019BA1C9C7C640078F4E3 /* LaunchScreen.storyboard */; };
 		501019C71C9C7C640078F4E3 /* pokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501019C61C9C7C640078F4E3 /* pokerTests.m */; };
 		501019D21C9C7C640078F4E3 /* pokerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501019D11C9C7C640078F4E3 /* pokerUITests.m */; };
+		501019E11C9C82E40078F4E3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 501019E01C9C82E40078F4E3 /* Card.m */; };
+		501019E51C9C98350078F4E3 /* poker.json in Resources */ = {isa = PBXBuildFile; fileRef = 501019E41C9C98350078F4E3 /* poker.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		501019CD1C9C7C640078F4E3 /* pokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501019D11C9C7C640078F4E3 /* pokerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pokerUITests.m; sourceTree = "<group>"; };
 		501019D31C9C7C640078F4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501019DF1C9C82E40078F4E3 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		501019E01C9C82E40078F4E3 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		501019E41C9C98350078F4E3 /* poker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poker.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		501019AB1C9C7C640078F4E3 /* poker */ = {
 			isa = PBXGroup;
 			children = (
+				501019E41C9C98350078F4E3 /* poker.json */,
 				501019AF1C9C7C640078F4E3 /* AppDelegate.h */,
 				501019B01C9C7C640078F4E3 /* AppDelegate.m */,
 				501019B21C9C7C640078F4E3 /* ViewController.h */,
@@ -110,6 +116,8 @@
 				501019BA1C9C7C640078F4E3 /* LaunchScreen.storyboard */,
 				501019BD1C9C7C640078F4E3 /* Info.plist */,
 				501019AC1C9C7C640078F4E3 /* Supporting Files */,
+				501019DF1C9C82E40078F4E3 /* Card.h */,
+				501019E01C9C82E40078F4E3 /* Card.m */,
 			);
 			path = poker;
 			sourceTree = "<group>";
@@ -246,6 +254,7 @@
 				501019BC1C9C7C640078F4E3 /* LaunchScreen.storyboard in Resources */,
 				501019B91C9C7C640078F4E3 /* Assets.xcassets in Resources */,
 				501019B71C9C7C640078F4E3 /* Main.storyboard in Resources */,
+				501019E51C9C98350078F4E3 /* poker.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				501019B41C9C7C640078F4E3 /* ViewController.m in Sources */,
 				501019B11C9C7C640078F4E3 /* AppDelegate.m in Sources */,
 				501019AE1C9C7C640078F4E3 /* main.m in Sources */,
+				501019E11C9C82E40078F4E3 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
